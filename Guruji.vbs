@@ -27,10 +27,7 @@ wshshell.run "Guruji.vbs"
 
 else
 if Input = "What are the best programming languages in the world?" OR  Input = "what are the best programming languages in the world?" then
-SAPI.Speak "1st one is Python with	31.47 % point,
-2nd one is Java with	19.14 %,
-3rd one is JavaScript with	7.49 %,
-4th	one is C# with 6.24 %"
+SAPI.Speak "1st one is Python with	31.47 % point, 2nd one is Java with	19.14 %, 3rd one is JavaScript with	7.49 %, 4th	one is C# with 6.24 %,"
 wshshell.run "Guruji.vbs"
 
 else
