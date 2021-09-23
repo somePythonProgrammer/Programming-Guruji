@@ -7,7 +7,12 @@ Input = InputBox("Enter Command...")
 
 if Input = "Hi" OR  Input = "Hello" then
 Sapi.Speak "Hi sir"
-wshshell.run "Programming Guruji.vbs"
+wshshell.run "Guruji.vbs"
+  
+else
+if Input = "hi" OR  Input = "hello" then
+Sapi.Speak "Hi sir"
+wshshell.run "Guruji.vbs"
 
 else
 if Input = "What is programming?" OR  Input = "what is programming?" then
@@ -34,6 +39,7 @@ else
 if Input = "Stop" OR  Input = "stop" then
 SAPI.Speak "Closing..."
 
+end if
 end if
 end if
 end if
