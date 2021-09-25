@@ -36,9 +36,44 @@ SAPI.Speak "1st one is Python with	31.47 % point, 2nd one is Java with	19.14 %, 
 wshshell.run "Guruji.vbs"
 
 else
+if Input = "--learn html" then
+SAPI.Speak "Then the best place will be educational websites!"
+wshshell.run "https://educational-websites.github.io/HTML-tutorials/"
+wshshell.run "Guruji.vbs"
+
+else
+if Input = "--learn css" then
+SAPI.Speak "Then the best place will be educational websites!"
+wshshell.run "https://educational-websites.github.io/CSS-tutorials/"
+wshshell.run "Guruji.vbs"
+
+else
+if Input = "--learn js" then
+SAPI.Speak "Then the best place will be educational websites!"
+wshshell.run "https://educational-websites.github.io/JS-Tutorials/"
+wshshell.run "Guruji.vbs"
+
+else
+if Input = "--YcodingY" then
+SAPI.Speak "Then the best place will be educational websites!"
+wshshell.run "https://educational-websites.github.io/WhyCodingWhy/"
+wshshell.run "Guruji.vbs"
+
+else
+if Input = "--live-code-editor" then
+SAPI.Speak "Then the best place will be educational websites!"
+wshshell.run "https://educational-websites.github.io/Live-Code-Editor/"
+wshshell.run "Guruji.vbs"
+
+else
 if Input = "Stop" OR  Input = "stop" then
 SAPI.Speak "Closing..."
 
+end if
+end if
+end if
+end if
+end if
 end if
 end if
 end if
