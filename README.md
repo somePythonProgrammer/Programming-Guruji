@@ -6,6 +6,7 @@
 After you've downloaded and extracted the ZIP, Run Guruji.vbs then Ask doubt for that you want to get answer.<br>
 Questions to Ask & Their Answer:<br>
 
+**_Make Sure to Use same Capital and small letters In order to get a answer._**
 
 > 1. what is programming?<br>
 > Ans. Computer programming is the process of designing and building an executable computer program to accomplish a specific computing result or to perform a specific task. <br>
